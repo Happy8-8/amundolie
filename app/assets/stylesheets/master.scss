@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+
+@import "bootstrap";
+
+.clear {
+  clear: both;
+}
+
+
+.logo, .logo *{
+  position: absolute;
+  left: 10%;
+}
+.ribbon{
+  width: 15px;
+  height: 40px;  
+}
+.r1{
+  -webkit-transform: rotate(62deg);
+  -moz-transform: rotate(62deg);
+  -o-transform: rotate(62deg);
+  -ms-transform: rotate(62deg);
+  transform: rotate(62deg);
+}
+.r2{
+  -webkit-transform: rotate(-62deg);
+  -moz-transform: rotate(-62deg);
+  -o-transform: rotate(-62deg);
+  -ms-transform: rotate(-62deg);
+  transform: rotate(-62deg);
+}
+.ribb1a{
+  background: #d3532e;
+  top: -38px;
+  left: 25px;  
+  border-radius: 0px 2px;
+  -webkit-transform: skewy(28deg);
+  -moz-transform: skewy(28deg);
+  -o-transform: skewy(28deg);
+  -ms-transform: skewy(28deg);
+  transform: skewy(28deg);
+}
+.ribb1b{
+  background: -webkit-gradient(radial,0% 10%,60, -70% 10%,200,from(rgba(169,68,59,1)),to(rgba(190,120,51,1)));
+  background: -moz-radial-gradient(0% 10%,circle,rgba(169,68,59,1),rgba(190,120,51,1));
+  background-image: -o-linear-gradient(top,rgba(169,68,59,1),rgba(190,120,51,1));
+  background: gradient(radial,0% 10%,60, -70% 10%,200,from(rgba(169,68,59,1)),to(rgba(190,120,51,1)));
+  top: 25px;
+  left: -38px; 
+  border-radius: 2px 0px;
+  -webkit-transform: skewy(-28deg);
+  -moz-transform: skewy(-28deg);
+  -o-transform: skewy(-28deg);
+  -ms-transform: skewy(-28deg);
+  transform: skewy(-28deg);
+}
+
+.ribb2a{
+  background-color: rgba(75,111,107,1);
+  background: -webkit-gradient(radial,0% 10%,60, -70% 10%,250,from(rgba(75,111,107,1)),to(rgba(99,148,123,1)));
+  background: -moz-radial-gradient(0% 10%,circle,rgba(75,111,107,1),rgba(99,148,123,1));
+  background-image: -o-linear-gradient(bottom,rgba(99,148,123,1),rgba(0,0,0,0));
+  background: gradient(radial,0% 10%,60, -70% 10%,250,from(rgba(75,111,107,1)),to(rgba(99,148,123,1))); 
+  border-radius: 0px 2px;
+  -webkit-transform: skewy(28deg);
+  -moz-transform: skewy(28deg);
+  -o-transform: skewy(28deg);
+  -ms-transform: skewy(28deg);
+  transform: skewy(28deg);
+  
+  top: -38px;
+  left: 58px;  
+}
+
+.ribb2b{
+  background-color: rgba(75,111,107,1);
+  background: -webkit-gradient(radial,10% 30%,10,10% 25%,150,from(rgba(99,148,123,1)),to(rgba(75,111,107,1)));
+  background: -moz-radial-gradient(10% 30%,circle,rgba(99,148,123,1),rgba(75,111,107,1));
+  background-image: -o-linear-gradient(top,rgba(99,148,123,1),rgba(0,0,0,0));
+  background: gradient(radial,10% 30%,10,10% 25%,150,from(rgba(99,148,123,1)),to(rgba(75,111,107,1)));
+  top: 26px;
+  left: -17px;  
+  border-radius: 2px 0px;
+  -webkit-transform: skewy(-28deg);
+  -moz-transform: skewy(-28deg);
+  -o-transform: skewy(-28deg);
+  -ms-transform: skewy(-28deg);
+  transform: skewy(-28deg);
+}
+.sh1{
+  background: #000;
+  width: 10px;
+  height: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0,0,0,.6);
+  clip: rect(6px 11px 40px -20px);
+} 
+.sh1a{
+  -webkit-transform: rotate(-32deg) skewx(30deg);
+  -moz-transform: rotate(-32deg) skewx(30deg);
+  -o-transform: rotate(-32deg) skewx(30deg);
+  -ms-transform: rotate(-32deg) skewx(30deg);
+  transform: rotate(-32deg) skewx(30deg);
+  left: 28px;
+  top: 9px;
+}
+.sh1b{
+  -webkit-transform: rotate(148deg) skewx(30deg);
+  -moz-transform: rotate(148deg) skewx(30deg);
+  -o-transform: rotate(148deg) skewx(30deg);
+  -ms-transform: rotate(148deg) skewx(30deg);
+  transform: rotate(148deg) skewx(30deg);
+  left: 21px;
+  top: 40px;
+}
+.sh22{
+  top: 20px;
+  left: 42px;
+  clip: rect(0px 8px 20px -20px);
+}
+.sh2b{
+  opacity: .4;
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), -webkit-linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  background-image: -moz-linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), -moz-linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  background-image: -o-linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), -o-linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  background-image: linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  width: 30px;
+  height: 10px;
+  -webkit-transform: skewx(-62deg);
+  -moz-transform: skewx(-62deg);
+  -o-transform: skewx(-62deg);
+  -ms-transform: skewx(-62deg);
+  transform: skewx(-62deg);
+}
+.sh21{
+  top: 20px;
+  left: 17px;
+  -webkit-transform: scalex(-1);
+  -moz-transform: scalex(-1);
+  -o-transform: scalex(-1);
+  -ms-transform: scalex(-1);
+  transform: scalex(-1);
+  clip: rect(0px 8px 20px -20px);
+}
+.sh2a{
+  z-index: 50;
+  opacity: .4;
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), -webkit-linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  background-image: -moz-linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), -moz-linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  background-image: -o-linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), -o-linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  background-image: linear-gradient(top,rgba(0,0,0,.7) 8%,rgba(0,0,0,0) 16%), linear-gradient(263deg,rgba(0,0,0,1)10%,rgba(0,0,0,0) 11%);
+  width: 30px;
+  height: 10px;
+  -webkit-transform: skewx(-62deg);
+  -moz-transform: skewx(-62deg);
+  -o-transform: skewx(-62deg);
+  -ms-transform: skewx(-62deg);
+  transform: skewx(-62deg);
+}
+.shad{
+  width: 10px;
+  height: 15px;
+  border-radius: 20px;
+  box-shadow: 0 20px 10px rgba(0,0,0,.5);
+  top: 56px;
+  left: 10px;
+  -webkit-transform: rotateX(80deg);
+  -moz-transform: rotateX(80deg);
+  -o-transform: rotateX(80deg);
+  -ms-transform: rotateX(80deg);
+  transform: rotateX(80deg);
+}
+.shad2{
+  left: 31px
+}
+
+.slogan {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  padding-top: 26px
+}
+
+.links {
+  padding-top: 26px;
+}
+
+.links a {
+  color: black;
+  font-size: 25px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+header {
+  border-top:9x solid #222222;
+}
+
+hr {
+  clear:both;
+}
+
+
+h1 {
+  font-family: 'Mukta', sans-serif;
+  
+}
+
+
+h2 {
+  font-family: 'Mukta', sans-serif;
+
+}
+
+
+.next-quote {
+  color:#f84342;
+  font-family: 'nobilemedium_italic', sans-serif;
+  font-size:20px;
+}
+
+
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 10px;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
